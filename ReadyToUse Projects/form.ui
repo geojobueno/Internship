@@ -273,7 +273,7 @@
           <enum>QFrame::NoFrame</enum>
          </property>
          <property name="text">
-          <string>Insira seus dados para o projeto CAR</string>
+          <string>INSERT YOUR INFO TO CONNECT INTO THE PROJECT</string>
          </property>
          <property name="scaledContents">
           <bool>true</bool>
