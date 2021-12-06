@@ -25,4 +25,4 @@ A ready-to-use project file will be created on the Documents folder of the user.
 
 
 ### Using this code on Windows
-To use this code on Windows OS it will need to adapt the file paths, easily replacing "/" by "\".
+To use this code on Windows OS it will need to adapt the file paths, easily replacing "/" by "\\".
