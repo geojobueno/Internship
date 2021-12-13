@@ -61,7 +61,7 @@ class flow_direction:
                 self.flipped.append(line.id())
                 #print(f'flip {line.id()}')
 
-        
+        self.startoks.clear() #testing 
         new_con = self.get_connected()
         if len(new_con) > 1: #lock to break the main loop
             self.flip_connected(new_con) #main loop to get all the tree
@@ -89,4 +89,5 @@ class flow_direction:
         print('finish')
 
 f = flow_direction(layer)
+f.get_branch()
 #f.run()
