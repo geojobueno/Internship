@@ -5,7 +5,8 @@ A repository to share and keep my personal codes from the internship updated. Mo
 ## Plugins
 Plugins that I made and I feel I need to share them with the world, possibly they will be released on QGis Official Repository.
 
-
+## Scripts
+Scripts for personal and professional purposes, generally automated solutions and solving problems. (Be mind to update paths and functions)
 
 
 
