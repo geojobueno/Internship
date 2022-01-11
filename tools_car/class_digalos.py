@@ -1,12 +1,6 @@
-#Para rodar no console
-import sys
-sys.path.append(r'R:\03_TOOLS\CODIGOS_PY\tools_car')
-
-
 import processing
 import os
-from funcoes import *
-from datetime import datetime
+from .funcoes import *
 from qgis.core import *    
 
 class DigStream:
@@ -211,7 +205,7 @@ class DigStream:
         return drain
 
 
-    def run(self):
+    def run(self, limiar=2000, mexp=2, lenght=1):
         '''
         PT/BR
         Realiza o processo de "cavar" o modelo para todos os arquivos na pasta de entrada.
@@ -229,7 +223,7 @@ class DigStream:
         results = []
         
         for alos in self.arquivos:
-            results.append(grass_streamextract(alos, path_out_drenagens))
+            results.append(grass_streamextract(alos, path_out_drenagens, limiar=2000, mexp=2, lenght=1))
         #results.append(grass_streamextract(alos, path_out_drenagens) for alos in self.arquivos)
     
         return results
