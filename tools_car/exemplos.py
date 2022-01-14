@@ -18,6 +18,8 @@ params = {'raster' : r,
 
 ag = AutoGrid(params) #Construção do objeto
 AutoGrid.run_autogrid() #Fazer o grid e recortar automaticamente
+
+
 #grid = ag.make_grid(r,nx,ny) #Fazer só o grid
 #ag.clip_by_grid(grid) #Cortar a imagem por um grid qualquer
 '''

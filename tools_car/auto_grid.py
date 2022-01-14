@@ -101,7 +101,7 @@ class AutoGrid:
         return results
         
 
-    def run_autogrid(self):
+    def run(self):
         '''
         Cria um grid e recorta o raster a partir dele automaticamente.
         '''
