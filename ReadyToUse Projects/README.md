@@ -4,7 +4,7 @@
 At my job we often need to configure a QGS file for each employee on the project, setting the layers, colours, servers and user configs. 
 This code was made to automate this work, we just need set up one project and just handle a bit of information to share with everyone!
 
-## How to work
+## How it works
 The code will get an original QGis project file (.qgs) and gonna insert the user input data on that.
 
 ## How to set up the original project
